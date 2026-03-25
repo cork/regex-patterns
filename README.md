@@ -217,7 +217,7 @@ Below are the patterns for each European country, along with a brief description
 - **Pattern:** `^\d{4}$`
 - **Description:** Cypriot postal codes consist of 4 digits. This pattern matches a sequence of exactly four numerical digits.
 ##### VAT Number
-- **Pattern:** `^CY\d{8}L$`
+- **Pattern:** `^CY\d{8}[A-Z]$`
 - **Description:** Cypriot VAT numbers start with "CY", followed by 8 digits and a final letter.
 
 ---
